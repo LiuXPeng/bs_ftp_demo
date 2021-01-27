@@ -1,0 +1,21 @@
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+
+server:
+  port: 9093
+
+dir:
+  path: D:\download
+
+
+#jodconverter:
+#  local:
+#    enabled: true
+#    office-home:
+#    max-tasks-per-process: 100
+#    port-numbers:
+#      - 8100
+#      - 8101
+#      - 8102
