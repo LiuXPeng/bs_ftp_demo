@@ -2,20 +2,18 @@ spring:
   output:
     ansi:
       enabled: ALWAYS
+  servlet:
+    multipart:
+      enabled: true
+      #      最大支持文件大小
+      max-file-size: 100MB
+      #      最大支持请求大小
+      max-request-size: 100MB
 
 server:
   port: 9093
 
 dir:
-  path: D:\download
+  path: D:\test
 
 
-#jodconverter:
-#  local:
-#    enabled: true
-#    office-home:
-#    max-tasks-per-process: 100
-#    port-numbers:
-#      - 8100
-#      - 8101
-#      - 8102
